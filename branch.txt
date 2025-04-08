@@ -24,6 +24,8 @@ ex: we have file with 20 lines, now we are creating 2 sub-branch for sharing now
 2) current change 
 3) both merge by union
 
+##When we are merging conflicted file at that time we got 3 option which above given and 1 compare option and then we can select any option for our final changes at main branch.
+
 ### Types of Conflicts:
 1. **Merge Conflicts**: Occur during a `git merge` when Git cannot automatically resolve differences between branches.
 2. **Rebase Conflicts**: Occur during a `git rebase` when applying commits from one branch onto another.
