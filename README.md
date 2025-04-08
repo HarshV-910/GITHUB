@@ -19,3 +19,7 @@ we can edit all this things by:
 git config --global -e
 '''
 </pre>
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("World")
