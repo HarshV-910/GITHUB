@@ -6,9 +6,13 @@ Git branches are a way to work on different versions of a repository simultaneou
 ### Key Commands for Branches:
 - Create a new branch: `git branch <branch-name>`
 - To show all branches: `git branch`
+
 - Switch to a branch: `git checkout <branch-name>` or `git switch <branch-name>`
+
 - Create and switch to a branch: `git checkout -b <branch-name>` or `git switch -c <branch-name>`
-- Merge a branch: `git merge <branch-name>`
+
+- Merge a branch (we are should at main branch to merge): `git merge <branch-name>`
+
 - Delete a branch: `git branch -d <branch-name>`
 
 ---
