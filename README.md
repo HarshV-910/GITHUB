@@ -1,7 +1,7 @@
 # GITHUB
 we can set out all values golbally on our local computer like this:
 <pre>
-```python
+```markdown
 git config --global user.name "Harsh Vekariya"
 
 git config --global user.email "harshvekariya910@gmail.com"
