@@ -14,9 +14,9 @@ git config --global core.autocrlf "input"
 ```
   
 we can edit all this things by:
-<pre>
+
 ```python
 git config --global -e
 ```
-</pre>
+
 
