@@ -10,7 +10,7 @@ git config --global core.editor "code --wait"
 
 git config --global core.autocrlf "input"
 
-```
+
 </pre>
   
 we can edit all this things by:
