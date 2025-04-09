@@ -1,5 +1,0 @@
-first checkpoint 1: hello my name is harsh
-second checkpoint 2: i am from surat
-third checkpoint 3: i am persuing aiml in LD college of engineering
-forth checkpoint 4: i got AIR 1622 in GATE CS 2025
-fifth checkpoint 5: i will get top 10 AIR rank in GATE CS and DA 2026
