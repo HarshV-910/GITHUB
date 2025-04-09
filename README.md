@@ -48,15 +48,15 @@ here all checkpoints have unique id
 ```
 
 ##**also to check logs first we have to make clone of this file on our local pc**
-'''
+```
 git clone [url]
-'''
+```
 **in vs code**
-'''
+```
 type ctrl+shift+P
 then search   Git: Clone
 now select repo of github
 now choose destination on local pc and open or navigate it into terminal
-'''
+```
 
 
