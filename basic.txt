@@ -4,13 +4,20 @@ permissions mili hai to git aapke folder ko pehchaanta hai, to ab kyuki git kaam
 interesting cheeje kar skta hai jaise ki aap chaahe to kisi bhi moment par
 ye check kr skte ho aapki kitni files kis stage par hai
 
--> initialize karo : git init
+-> initialize karo : 
+```
+git init
+```
 
 -> check kr skte ho aap konsi file kis stage mein hai
--> git status -s
+```
+git status -s
+```
 
 -> check kr skte ho aap kitne saved checkpoints hai 
--> git log --oneline--graph
+```
+git log --oneline --graph
+```
 
 git status bataata hai commit ke pahle and baad ki file stage
 git log bataata hai saare commit histories
