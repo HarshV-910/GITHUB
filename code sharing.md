@@ -36,7 +36,25 @@ git clone https://github.com/HarshV-910/GITHUB.git
 ```
 git switch -C New_branch_name
 ```
-apna code usi branch mein likhein
- complete hone par commit dein
- inform karein teammate ko about the commit
- merger banda(leader) fetch karega and merge karega and re-push
+##apna code usi branch mein likhein
+ - complete hone par commit dein and push
+ ```
+ git add .
+ git commit -m "commited"
+ git push -u origin Branch_name
+ ```
+ - inform karein teammate ko about the commit
+ - merger banda(leader) fetch karega and merge karega and re-push
+ ```
+ git fetch
+ git switch Branch_name -> check code
+ git switch main
+ git merge Branch_name
+ git push origin main
+ ```
+ - now collaborator can pull updated code in his **main branch**
+ ```
+ git fetch
+ git pull
+ 
+ ```
