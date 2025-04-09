@@ -24,7 +24,7 @@
  - go to perticular repo
  - then go to settings
  - then collaborator menu at left side
- - then add collaborator using email or username
+ - then add collaborator using email or username 
 ```
 
 ------------------- 

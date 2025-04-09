@@ -4,8 +4,8 @@
 Git branches are a way to work on different versions of a repository simultaneously. A branch is essentially a pointer to a specific commit in the repository. The default branch in Git is usually called `main` or `master`. Developers create branches to isolate their work, allowing them to experiment or develop features without affecting the main codebase.
 
 ### Key Commands for Branches:
-- Create a new branch: `git branch <branch-name>`
-- To show all branches: `git branch`
+- Create a new branch: ```git branch <branch-name>```
+- To show all branches: ```git branch```
 
 - Switch to a branch: ```git checkout <branch-name>``` or ```git switch <branch-name>```
 
@@ -27,8 +27,8 @@ ex: we have file with 20 lines, now we are creating 2 sub-branch for sharing now
 ##When we are merging conflicted file at that time we got 3 option which above given and 1 compare option and then we can select any option for our final changes at main branch.
 
 ### Types of Conflicts:
-1. **Merge Conflicts**: Occur during a `git merge` when Git cannot automatically resolve differences between branches.
-2. **Rebase Conflicts**: Occur during a `git rebase` when applying commits from one branch onto another.
+1. **Merge Conflicts**: Occur during a ```git merge``` when Git cannot automatically resolve differences between branches.
+2. **Rebase Conflicts**: Occur during a ```git rebase``` when applying commits from one branch onto another.
 
 ---
 
@@ -36,30 +36,30 @@ ex: we have file with 20 lines, now we are creating 2 sub-branch for sharing now
 1. **Three-Way Merge**:
     - A three-way merge occurs when Git uses three commits to generate the merge: the two branch tips and their common ancestor.
     - This is the most common type of merge when branches have diverged.
-    - Command: `git merge <branch-name>`
+    - Command: ```git merge <branch-name>```
 
 2. **Fast-Forward Merge**:
     - A fast-forward merge occurs when the branch being merged has no additional commits compared to the current branch.
     - In this case, Git simply moves the branch pointer forward to the latest commit.
-    - Command: `git merge --ff <branch-name>` (default behavior)
+    - Command: ```git merge --ff <branch-name>``` (default behavior)
 
 3. **No Fast-Forward Merge**:
     - This type of merge creates a merge commit even if a fast-forward merge is possible. It is useful for preserving the branch history.
-    - Command: `git merge --no-ff <branch-name>`
+    - Command: ```git merge --no-ff <branch-name>```
 
 ---
 
 ## Solutions to Resolve Conflicts:
 
 1. **Complete the Merge/Rebase**:
-    - For a merge: Run `git commit` to complete the merge.
-    - For a rebase: Run `git rebase --continue` to continue the rebase process.
+    - For a merge: Run ```git commit``` to complete the merge.
+    - For a rebase: Run ```git rebase --continue``` to continue the rebase process.
 
 2. **Abort the Operation (if needed)**:
     - If you want to cancel the merge or rebase, use:
-      - `git merge --abort`
-      - `git rebase --abort`
+      - ```git merge --abort```
+      - ```git rebase --abort```
 
 ---
 
-##To delete branch: `git branch -d <branch_name>`
+##To delete branch: ```git branch -d <branch_name>```

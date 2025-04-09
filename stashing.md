@@ -4,5 +4,5 @@ karege to wo changes naa hi delete honge na hi add hobnge but beech mein kahi da
 
 basically stashing is like drafting a codes or messages. Such messages that now we not want to do commit or staged(added) at that time we can keep it as stash(draft) and then we can change branch, and when we want we can get back.
 
-for stashing : git stash
-for get back stashed messages : git stash apply
+for stashing : ```git stash```
+for get back stashed messages : ```git stash apply```
