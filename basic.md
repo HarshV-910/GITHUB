@@ -18,6 +18,10 @@ git status -s
 ```
 git log --oneline --graph
 ```
+to remove files from github which pushed last
 
+```
+git reset --hard HEAD~1
+```
 git status bataata hai commit ke pahle and baad ki file stage
 git log bataata hai saare commit histories
